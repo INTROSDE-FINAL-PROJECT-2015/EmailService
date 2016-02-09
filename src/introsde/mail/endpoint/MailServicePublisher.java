@@ -18,7 +18,7 @@ public class MailServicePublisher {
             HOSTNAME = "localhost";
         }
         String PORT = "6902";
-        String BASE_URL = "/ws/people";
+        String BASE_URL = "/ws/mail";
 
         if (String.valueOf(System.getenv("PORT")) != "null"){
             PORT=String.valueOf(System.getenv("PORT"));
